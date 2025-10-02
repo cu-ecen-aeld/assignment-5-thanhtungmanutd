@@ -1,0 +1,6 @@
+
+config BR2_PACKAGE_AESDSOCKET
+	bool "aesdsocket"
+	help
+	  Includes the aesdsocket executable, aesdsocket-start-stop.sh in the kernel image.
+	  Used to understand buildroot external trees and package builds.
